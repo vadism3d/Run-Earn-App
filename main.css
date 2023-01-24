@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background: #28333F;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-image: url(/img/bg_main.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Status Bar */
+.status_bar{
+    height: 111px;
+    text-align: center;
+}
+.status_bar_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 658px;
+}
+.status_bar__left {
+}
+.status_bar__time {
+}
+.stsatus_bar__right {
+    display: flex;
+    column-gap: 5px;
+}
+.status_bar__signal {
+}
+.status_bar__wifi {
+}
+.status_bar__battery {
+}
+
+/* Main */
+.main{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.main_title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.main_subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #AEA8B3;
+}
+.main_button {
+    padding: 17px 98px;
+    background: #7B61FF;
+    box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.home_line {
+}
